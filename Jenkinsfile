@@ -8,7 +8,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        sh 'cd ./example-react; npm install'
+        sh 'npm install'
       }
     }
 
